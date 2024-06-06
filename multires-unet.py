@@ -1,6 +1,7 @@
 from keras.src.layers import Conv2D, BatchNormalization, Activation, MaxPooling2D, Conv2DTranspose
 from keras.src.layers import Concatenate, Input
 from keras.src.models import Model
+from keras._tf_keras.keras.preprocessing.image import ImageDataGenerator
 
 # normal convolution block
 def conv_block(x, num_filters, kernel_size, padding="same", act=True):
