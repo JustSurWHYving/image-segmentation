@@ -1,6 +1,8 @@
-venv/
+.idea/
+.ipynb_checkpoints/
 content/
 drive/
+venv/
 
 *.json
 *.zip
